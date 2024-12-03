@@ -6,6 +6,7 @@ import numpy as np
 # R is the rotation matrix associated to the rotation error
 def determine_signs(R):
     
+    
     # squared rotation vector
     u_2 = (np.diag(R)+1)/2
     
