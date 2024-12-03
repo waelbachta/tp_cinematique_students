@@ -2,7 +2,6 @@ import math
 from spatialmath import SE3, base
 import numpy as np
 
-
 # to use if the rotation angle error is equal to pi
 # R is the rotation matrix associated to the rotation error
 def determine_signs(R):
