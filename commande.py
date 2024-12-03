@@ -10,7 +10,6 @@ def determine_signs(R):
     # squared rotation vector
     u_2 = (np.diag(R)+1)/2
     
-   
     # extracting the parameters to simplify the code
     u_xy = R[0,1]
     u_xz = R[0,2]
