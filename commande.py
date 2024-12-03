@@ -20,6 +20,7 @@ def determine_signs(R):
     axe = np.empty(3)
 
 
+
     # The vectors reported here are valid even if their opposite is taken (pi rotation)
     if (u_xy>=0)&(u_xz>=0)&(u_yz>=0):
         axe[0] = 0.0
