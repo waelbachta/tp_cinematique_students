@@ -8,6 +8,7 @@ import matplotlib
 from matplotlib import pyplot as plt
 
 
+
 # The rotation axis, to modify as requested
 u = np.array([0, 0, 1])
 
