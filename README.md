@@ -11,7 +11,7 @@ Vous vous intéresserez plus particulièrement, et sans perte de généralité, 
 ## # Travail préliminaire de modélisation
 
 De façon générale, toute rotation d'un angle $\theta$ autour d'un vecteur unitaire $u = [u_x\,\,u_y\,\,u_z]^{'}$ admet une matrice de rotation de la forme suivante :
-
+$$
 \begin{align*}
 \rm{R(}\theta,u\rm{)}
 & = \begin{pmatrix}
@@ -21,9 +21,9 @@ u_x u_z (1-\cos(\theta) )-u_y \sin(\theta) & u_y u_z(1-\cos(\theta) )+u_x\sin(\t
 \end{pmatrix}\\
 & = \cos(\theta) \mathbb{I}_3 + \sin(\theta)\rm{AS}(u) + (1-\cos(\theta)) uu'\\
 \end{align*}
-
-Dans le cours nous avons vu que ($\theta,u$) peuvent être obtenus à partir de la matrice de rotation de la sorte :\\
 $$
+Dans le cours nous avons vu que ($\theta,u$) peuvent être obtenus à partir de la matrice de rotation de la sorte :\\
+\[
 \label{eq:axe_angle}
 (\theta, u)=\,\left\{
     \begin{array}{lll}
@@ -40,7 +40,7 @@ $$
 			r_{13} - r_{31} \\
 			r_{21} - r_{12}	
 			    \end{pmatrix}}_{l}
-$$
+\]
 
 Comme vous pouvez le voir, la représentation axe/angle admet des singularités pour $\theta = k \pi$
 
