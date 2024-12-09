@@ -24,7 +24,6 @@ u_x u_z (1-\cos(\theta) )-u_y \sin(\theta) & u_y u_z(1-\cos(\theta) )+u_x\sin(\t
 
 Dans le cours nous avons vu que ($\theta,u$) peuvent être obtenus à partir de la matrice de rotation de la sorte :\\
 $$
-\begin{equation}
 \label{eq:axe_angle}
 (\theta, u)=\,\left\{
     \begin{array}{lll}
@@ -41,8 +40,8 @@ $$
 			r_{13} - r_{31} \\
 			r_{21} - r_{12}	
 			    \end{pmatrix}}_{l}
-\end{equation}\\
 $$
+
 Comme vous pouvez le voir, la représentation axe/angle admet des singularités pour $\theta = k \pi$
 
 1. Etablissez la relation entre la trace de la matrice de rotation $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$
