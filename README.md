@@ -45,19 +45,19 @@ Dans le cours nous avons vu que ($\theta,u$) peuvent être obtenus à partir de 
 
 Comme vous pouvez le voir, la représentation axe/angle admet des singularités pour $\theta = k \pi$
 
-1. \item Etablissez la relation entre la trace de la matrice de rotation $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$
+1. Etablissez la relation entre la trace de la matrice de rotation $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$
 
-2. \item Montrer que la norme de $l$ est égale à $2\sin(\theta)$
+2. Montrer que la norme de $l$ est égale à $2\sin(\theta)$
 
-3. \item Calculez successivement la matrice de rotation $\rm{R}$  pour $\theta=0$ et $\theta=\pi$ qui correspondent à un facteur près aux angles de singularité de la représentation axe/angle
+3. Calculez successivement la matrice de rotation $\rm{R}$  pour $\theta=0$ et $\theta=\pi$ qui correspondent à un facteur près aux angles de singularité de la représentation axe/angle
 
-4. \item Ajouter la matrice identité à la matrice ${\rm{R}}(\theta,u)$. Constituer un vecteur à partir des éléments diagonaux et diviser le par 2. Donner le vecteur obtenu.
+4. Ajouter la matrice identité à la matrice ${\rm{R}}(\theta,u)$. Constituer un vecteur à partir des éléments diagonaux et diviser le par 2. Donner le vecteur obtenu.
 
-5. \item Proposez une méthode basée sur la matrice de rotation ${\rm{R}}(\pi,u)$ afin de trouver les signes des composants de $u$
+5. Proposez une méthode basée sur la matrice de rotation ${\rm{R}}(\pi,u)$ afin de trouver les signes des composants de $u$
 
-6. \item Calculez les traces de la matrice  $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$ pour $\theta = 0$ et $\theta=\pi$. Donnez à chaque fois le signe de la trace
+6. Calculez les traces de la matrice  $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$ pour $\theta = 0$ et $\theta=\pi$. Donnez à chaque fois le signe de la trace
 
-7. \item  Comme $\theta=0$ et $\theta=\pi$ sont des singularités pour la représentation axe/angle. Proposez des solutions qui permettent de les contourner.
+7. Comme $\theta=0$ et $\theta=\pi$ sont des singularités pour la représentation axe/angle. Proposez des solutions qui permettent de les contourner.
 
 ## # Etude de la stabilité numérique
 
