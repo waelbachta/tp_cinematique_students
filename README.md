@@ -41,7 +41,7 @@ $$
 			    r_{32} - r_{23} \\
     			r_{13} - r_{31} \\
     			r_{21} - r_{12}	
-          \end{pmatrix}}_l
+          \end{pmatrix}}_{l}
 \end{equation}
 $$
 
