@@ -1,4 +1,3 @@
-# tp_cinematique_students
 
 # Objectifs de la séance
 Lors de cette séance, vous implémenterez une loi de commande cinématique qui permet à l'organe terminal d'un robot d'atteindre une attitude désirée. Vous considérerez que vous disposez des modèles géométrique et cinématique du robot. Vous ferez également l'hypothèse que les boucles de contrôle locales en vitesse possèdent une bande passante très supérieure à celle de la tâche opérationnelle à accomplir.
@@ -46,29 +45,19 @@ Dans le cours nous avons vu que ($\theta,u$) peuvent être obtenus à partir de 
 
 Comme vous pouvez le voir, la représentation axe/angle admet des singularités pour $\theta = k \pi$
 
-\begin{enumerate}
-\item Etablissez la relation entre la trace de la matrice de rotation $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$
+1. \item Etablissez la relation entre la trace de la matrice de rotation $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$
 
-\item Montrer que la norme de $l$ est égale à $2\sin(\theta)$
+2. \item Montrer que la norme de $l$ est égale à $2\sin(\theta)$
 
+3. \item Calculez successivement la matrice de rotation $\rm{R}$  pour $\theta=0$ et $\theta=\pi$ qui correspondent à un facteur près aux angles de singularité de la représentation axe/angle
 
+4. \item Ajouter la matrice identité à la matrice ${\rm{R}}(\theta,u)$. Constituer un vecteur à partir des éléments diagonaux et diviser le par 2. Donner le vecteur obtenu.
 
-\item Calculez successivement la matrice de rotation $\rm{R}$  pour $\theta=0$ et $\theta=\pi$ qui correspondent à un facteur près aux angles de singularité de la représentation axe/angle
+5. \item Proposez une méthode basée sur la matrice de rotation ${\rm{R}}(\pi,u)$ afin de trouver les signes des composants de $u$
 
+6. \item Calculez les traces de la matrice  $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$ pour $\theta = 0$ et $\theta=\pi$. Donnez à chaque fois le signe de la trace
 
-\item Ajouter la matrice identité à la matrice ${\rm{R}}(\theta,u)$. Constituer un vecteur à partir des éléments diagonaux et diviser le par 2. Donner le vecteur obtenu.
-
-
-
-\item Proposez une méthode basée sur la matrice de rotation ${\rm{R}}(\pi,u)$ afin de trouver les signes des composants de $u$
-
-
-\item Calculez les traces de la matrice  $\rm{R(}\theta,u\rm{)}$ et $\cos(\theta)$ pour $\theta = 0$ et $\theta=\pi$. Donnez à chaque fois le signe de la trace
-
-
-\item  Comme $\theta=0$ et $\theta=\pi$ sont des singularités pour la représentation axe/angle. Proposez des solutions qui permettent de les contourner.\\
-
-\end{enumerate}
+7. \item  Comme $\theta=0$ et $\theta=\pi$ sont des singularités pour la représentation axe/angle. Proposez des solutions qui permettent de les contourner.
 
 ## # Etude de la stabilité numérique
 
@@ -100,9 +89,9 @@ Lors de l'implémentation d'une loi de commande basée sur le paramétrage axe/a
 Vous allez maintenant vous attaquer à la commande opérationnelle à proprement parler. Pour cela ouvrez les scripts "tp\_main.py" et "commande.py".
 
 
-1/ Commencez par lire le code de "tp\_main.py" afin d'en saisir la structure.
-2/ Lisez le code contenu dans "commande.py" pour le comprendre et le compléter
-3/ Dès que la loi de commande donne des résultats satisfaisants, testez les cas de singularité
+1.  Commencez par lire le code de "tp\_main.py" afin d'en saisir la structure.
+2.  Lisez le code contenu dans "commande.py" pour le comprendre et le compléter
+3.  Dès que la loi de commande donne des résultats satisfaisants, testez les cas de singularité
 
 
 
