@@ -19,28 +19,39 @@ u_x^2(1-\cos(\theta) )+ \cos(\theta) & u_x u_y(1-\cos(\theta) )-u_z\sin(\theta) 
 u_x u_y (1-\cos(\theta) )+u_z \sin(\theta) & u_y^2(1-\cos(\theta) )+\cos(\theta) & u_y u_z (1-\cos(\theta))-u_x \sin(\theta) \\
 u_x u_z (1-\cos(\theta) )-u_y \sin(\theta) & u_y u_z(1-\cos(\theta) )+u_x\sin(\theta) & u_z^2  (1-\cos(\theta)) + \cos(\theta)\\
 \end{pmatrix}\\
+
 & = \cos(\theta) \mathbb{I}_3 + \sin(\theta)\rm{AS}(u) + (1-\cos(\theta)) uu'\\
 \end{align*}
 $$
-Dans le cours nous avons vu que ($\theta,u$) peuvent être obtenus à partir de la matrice de rotation de la sorte :\\
-\[
-\label{eq:axe_angle}
-(\theta, u)=\,\left\{
-    \begin{array}{lll}
-                 \theta = \arccos \big(  \dfrac{r_{11}+r_{22}+r_{33}-1}{2} \big) \\
-                 $ $\\
-                 {\bf u} = \frac{1}{2\sin(\theta)}\begin{pmatrix}
+
+Dans le cours nous avons vu que ($\theta,u$) peuvent être obtenus à partir de la matrice de rotation de la sorte :
+$$
+\begin{equation}
+ \theta = \arccos \big(  \dfrac{r_{11}+r_{22}+r_{33}-1}{2} \big),
+ \end{equation}
+$$
+
+$$
+\begin{equation}
+\theta{\bf u} = \frac{\theta}{2\sin(\theta)}
+        \underbrace{\begin{pmatrix}
 			    r_{32} - r_{23} \\
-			r_{13} - r_{31} \\
-			r_{21} - r_{12}	
-			    \end{pmatrix}
-                \end{array}
- \right. \text{ ou encore } \theta {\bf u} = \frac{\theta}{2 \text{sin}(\theta)} \underbrace{\begin{pmatrix}
+    			r_{13} - r_{31} \\
+    			r_{21} - r_{12}	
+          \end{pmatrix}}_l
+\end{equation}
+$$
+
+et 
+
+$$
+{\bf u} = \frac{1}{2\sin(\theta)}
+        \begin{pmatrix}
 			    r_{32} - r_{23} \\
-			r_{13} - r_{31} \\
-			r_{21} - r_{12}	
-			    \end{pmatrix}}_{l}
-\]
+    			r_{13} - r_{31} \\
+    			r_{21} - r_{12}	
+          \end{pmatrix}
+$$
 
 Comme vous pouvez le voir, la représentation axe/angle admet des singularités pour $\theta = k \pi$
 
