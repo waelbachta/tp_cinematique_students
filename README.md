@@ -19,10 +19,10 @@ Cela vous permet de télécharger une image du docker prêt à l'emploi. Vous al
 
 Cela vous permet de lancer le contenaire qui établit une connexion ssh sur le port 220
 
-- Connectez-vous avec un ssh X à votre contenaire en écrivant
-
+- Connectez-vous avec un ssh X à votre contenaire en écrivant :
+     ```
     ssh -X -p 220 root@localhost
-
+ 	```
  Vous aurez à saisir le mot de passe du contenaire qui est root123
 
  - Aller dans /home et vérifier qu'il correspond bien à volume\_tp.
