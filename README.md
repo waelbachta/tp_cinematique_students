@@ -5,4 +5,5 @@ Pour faire tourner ce TP, beaucoup de librairies sont indispensable, notamment l
 . Il faut que Docker soit installé
 
 . Ecrire :
-		docker pull waelbachta/mac_ssh_labs:latest
+
+    docker pull waelbachta/mac_ssh_labs:latest
