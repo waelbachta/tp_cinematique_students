@@ -1,4 +1,9 @@
-Pour faire tourner ce TP, beaucoup de librairies sont indispensable, notamment la robotics-toolbox de P. Corke (P.I. Corke : https://github.com/petercorke/robotics-toolbox-python/wiki). Afin de bénéficier de tout ce qu'il faut pour travailler. 
+### Sujet
+Le sujet qui accompagne ce TP est dans lab\_text.md
+
+
+### Environnement de travail
+Pour faire tourner ce TP, beaucoup de librairies sont indispensables, et notamment la robotics-toolbox de P. Corke (P.I. Corke : https://github.com/petercorke/robotics-toolbox-python/wiki). Afin de bénéficier de tout ce qu'il faut pour travailler. 
 
 - Installer Docker.
 
@@ -19,7 +24,7 @@ Cela vous permet de télécharger une image du docker prêt à l'emploi. Vous al
 
 Cela vous permet de lancer le contenaire qui établit une connexion ssh sur le port 220
 
-- Connectez-vous avec un ssh X à votre contenaire en écrivant :
+- Se connecter avec un ssh X à votre contenaire en écrivant :
      ```
     ssh -X -p 220 root@localhost
  	```
@@ -27,4 +32,8 @@ Cela vous permet de lancer le contenaire qui établit une connexion ssh sur le p
 
  - Aller dans /home et vérifier qu'il correspond bien à volume\_tp.
 
+ - Accéder au répertoire qui correspond à votre TP.
+
  - Vous pouvez ainsi modifier le code sur votre ordinateur personnel et et l'interpréter sur le contenaire.
+
+ 
