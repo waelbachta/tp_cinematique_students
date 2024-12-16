@@ -3,17 +3,17 @@ Le sujet qui accompagne ce TP est dans lab\_text.md
 
 
 ### Environnement de travail
-Pour faire tourner ce TP, beaucoup de librairies sont indispensables, et notamment la robotics-toolbox de P. Corke (P.I. Corke : https://github.com/petercorke/robotics-toolbox-python/wiki). Afin de bénéficier de tout ce qu'il faut pour travailler. 
+Pour faire tourner ce TP, beaucoup de librairies sont indispensables, et notamment la robotics-toolbox de P. Corke (P.I. Corke : https://github.com/petercorke/robotics-toolbox-python/wiki). Afin de bénéficier d'un environement de travail complet, je vous suggère de procéder de la sorte : 
 
 - Installer Docker.
 
-- Aller dans le dossier docker_install et vérifier bien la présence d'un dossier volume\_tp.
+- Aller dans le dossier docker_install et vérifier bien la présence d'un dossier volume\_tp. 
 
 - Ecrire :
 
     sudo docker pull waelbachta/ubuntu_ssh_labs:latest
 
-Cela vous permet de télécharger une image du docker prêt à l'emploi. Vous allez devoir utiliser votre mot de passe personnel.
+Cela vous permet de télécharger une image du docker prête à l'emploi. Vous allez devoir utiliser votre mot de passe personnel.
 
     sudo docker build -t waelbachta/ubuntu_ssh_labs:latest .
 
