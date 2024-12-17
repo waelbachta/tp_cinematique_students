@@ -11,20 +11,22 @@ Pour faire tourner ce TP, beaucoup de librairies sont indispensables, et notamme
 
 - Ecrire :
  ```
-    sudo docker pull waelbachta/ubuntu_ssh_labs:latest
+   sudo docker pull waelbachta/ubuntu_ssh_labs:latest
  ```
+
 
 Cela vous permet de télécharger une image d'un conteneur docker prête à l'emploi. Vous allez devoir utiliser votre mot de passe personnel.
 
 - Vous lancerez votre conteneur avec liasion ssh sur le port 220 avec votre machine.
 
- ```
- 	sudo docker run -d --rm --volume="./volume_tp:/home/" -p 220:22 waelbachta/ubuntu_ssh_labs:latest
- ```
+  ```
+  sudo docker run -d --rm --volume="./volume_tp:/home/" -p 220:22 waelbachta/ubuntu_ssh_labs:latest
+  ```
 
 - Se connecter avec un ssh X à votre conteneur en écrivant :
+  
   ```
-    sudo ssh -X -p 220 root@localhost
+  sudo ssh -X -p 220 root@localhost
  	```
  Vous aurez à saisir le mot de passe du conteneur qui est root123
 
