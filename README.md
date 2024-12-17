@@ -7,7 +7,7 @@ Pour faire tourner ce TP, beaucoup de librairies sont indispensables, et notamme
 
 - Installer Docker.
 
-- Aller dans le dossier docker_install et vérifier bien la présence d'un dossier volume\_tp. 
+- Aller dans le dossier docker_install et vérifier la présence d'un dossier volume\_tp. 
 
 - Ecrire :
  ```
@@ -17,7 +17,7 @@ Pour faire tourner ce TP, beaucoup de librairies sont indispensables, et notamme
 
 Cela vous permet de télécharger une image d'un conteneur docker prête à l'emploi. Vous allez devoir utiliser votre mot de passe personnel.
 
-- Vous lancerez votre conteneur avec liasion ssh sur le port 220 avec votre machine.
+- Vous lancerez votre conteneur avec une liasion ssh sur le port 220 avec votre machine personnelle.
 
   ```
   sudo docker run -d --rm --volume="./volume_tp:/home/" -p 220:22 waelbachta/ubuntu_ssh_labs:latest
@@ -34,5 +34,5 @@ Cela vous permet de télécharger une image d'un conteneur docker prête à l'em
 
  - Accéder au répertoire qui correspond à votre TP.
 
- - Vous pouvez ainsi modifier le code sur votre ordinateur personnel et et l'interpréter sur le conteneur.
+Vous allez ainsi pouvoir modifier le code sur votre ordinateur personnel et et l'interpréter sur le conteneur.
 
