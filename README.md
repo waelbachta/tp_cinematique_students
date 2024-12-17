@@ -23,7 +23,7 @@ Cela vous permet de télécharger une image d'un conteneur docker prête à l'em
  ```
 
 - Se connecter avec un ssh X à votre conteneur en écrivant :
-     ```
+  ```
     sudo ssh -X -p 220 root@localhost
  	```
  Vous aurez à saisir le mot de passe du conteneur qui est root123
